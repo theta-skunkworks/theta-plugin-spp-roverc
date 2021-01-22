@@ -14,7 +14,7 @@ https://www.c-r.com/book/detail/1389
 動作している様子は以下画像をクリックして動画をご参照ください。
 
 
-～ youtubeへのリンクを貼りますので少々おまちください ～
+[![](https://img.youtube.com/vi/-LzXA4qnmjo/0.jpg)](https://www.youtube.com/watch?v=-LzXA4qnmjo)
 
 
 プロジェクトに関する詳しい説明は、書籍をご参照ください。
