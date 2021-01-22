@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>360 Object Tracking</title>
+    <script src="js/preview.js"></script>
+  </head>
+  <body onLoad="startLivePreview();updatePreviwFrame();">
+    <h1>
+      360 Object Tracking
+    </h1>
+    <img id="lvimg" src="" width="1024" height="512">
+    <br>
+    <br>
+    <br>
+    <input name="preview" type="radio" value="off" onclick="stopLivePreview();"> OFF
+    <input name="preview" type="radio" value="on"  onclick="startLivePreview();"> ON
+    <br>
+    <br>
+    <!--
+    <input name="ev" type="radio" value=-2.0 onclick="setEv(value);"> -2.0
+    <input name="ev" type="radio" value=-1.7 onclick="setEv(value);"> -1.7
+    <input name="ev" type="radio" value=-1.3 onclick="setEv(value);"> -1.3
+    <input name="ev" type="radio" value=-1.0 onclick="setEv(value);"> -1.0
+    <input name="ev" type="radio" value=-0.7 onclick="setEv(value);"> -0.7
+    <input name="ev" type="radio" value=-0.3 onclick="setEv(value);"> -0.3
+    <input name="ev" type="radio" value=0.0 onclick="setEv(value);"> 0.0
+    <input name="ev" type="radio" value=0.3 onclick="setEv(value);"> 0.3
+    <input name="ev" type="radio" value=0.7 onclick="setEv(value);"> 0.7
+    <input name="ev" type="radio" value=1.0 onclick="setEv(value);"> 1.0
+    <input name="ev" type="radio" value=1.3 onclick="setEv(value);"> 1.3
+    <input name="ev" type="radio" value=1.7 onclick="setEv(value);"> 1.7
+    <input name="ev" type="radio" value=2.0 onclick="setEv(value);"> 2.0
+    -->
+    <br>
+    <br>
+    <input type="button" value="Take Picture" onclick="takePicture()">
+    
+  </body>
+</html>
