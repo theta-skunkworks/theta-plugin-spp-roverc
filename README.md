@@ -33,7 +33,7 @@ https://www.c-r.com/book/detail/1389
             Log.d(TAG,"set _bluetoothPower=ON");
 ```
 
-この行がなかったため、Buletooth OFF（Z1のOLED上部にBluetoothマークが無い状態）から本プラグインを起動するとペアリングが行えませんでした。
+この行がなかったため、Buletooth OFF（Z1の場合、OLED上部にBluetoothマークが無い状態）から本プラグインを起動するとペアリングが行えませんでした。
 この行を追加することによって、上記ケースでも正常に動作します。（[補足Qiita記事の該当箇所はこちら](https://qiita.com/KA-2/items/b6d261d9b8bf584ebfe4#theta%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3%E5%9B%BA%E6%9C%89%E4%BA%8B%E9%A0%85%E3%81%AE%E5%87%A6%E7%90%86)）
 
 
